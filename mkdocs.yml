@@ -1,6 +1,18 @@
 site_name: UnBIAS
+site_description: UnBIAS Library
+site_url: https://your-library-website.com
+repo_url: https://github.com/yourusername/my-library
+edit_uri: edit/main/docs/
+site_author: Brandon Jaipersaud
+copyright: Copyright © 2023 Your Organization
 nav:
   - Home: index.md
-  - About: about.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - API Reference:
+    - Module 1: module1.md
+    - Module 2: module2.md
 theme:
   name: material
+plugins:
+  - search
