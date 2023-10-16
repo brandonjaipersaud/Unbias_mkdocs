@@ -42,36 +42,46 @@ The UnBIAS library provides a function: `run_pipeline_on_texts` which will perfo
 bias classification, NER for bias, and generate a debiased version of your text. A simple usage of the
 library is as follows: 
 
-```py title="run_unbias.py"
+```py title="run_unbias_simple.py"
 from UnBIAS import run_pipeline_on_texts
-import pandas as pd
 
 # Define your test sentences
-biased_text =  ["Men make better programmers than woman", \
+biased_texts =  ["Men make better programmers than woman", \
                 "People who wear Y clothing are untrustworthy."]
 # Run the pipeline on the text. This will return a pandas dataframe with columns:
 # [Original_Text, Bias_Classification, NER_Bias, Debiased_Text]
-results = run_pipeline_on_texts(biased_text)
+results = run_pipeline_on_texts(biased_texts)
 # Save the results to a csv file
 results.to_csv('<save_path>.csv', index=False)
 ```
 
-Refer to the [API Reference](api-reference.md) for more information and usage examples on `run_pipeline_on_texts`. What happens behind the scenes?
+If you have a dataset CSV file, you can extract the text column and run the pipeline on it as follows:
+
+```py title="run_unbias_on_dataset.py"
+from UnBIAS import run_pipeline_on_texts
+import pandas as pd 
+
+biased_texts = pd.read_csv("<dataset_path>.csv")
+# Assuming your CSV has a column called 'Text' that you want to debias
+biased_texts = list(biased_texts['Text'])
+# run the pipeline and save results
+results = run_pipeline_on_texts(biased_texts)
+results.to_csv('<save_path>.csv', index=False)
+``` 
+
+
+
+Refer to the [API Reference](api-reference.md) for more information about `run_pipeline_on_texts` and the [Detailed Usage](detailed_usage.md) for how to individually run each stage of the pipeline.
 
 ## Project Information
 
-- **License**: MIT
-- **PyPI**: https://pypi.org/project/UnBIAS/
-- **Source Code**: repo link
+- **License**: [insert-if-we-have]
+- **PyPI**: [https://pypi.org/project/UnBIAS/](https://pypi.org/project/UnBIAS/)
+- **Source Code**: [https://github.com/VectorInstitute/NewsMediaBias](https://github.com/VectorInstitute/NewsMediaBias)
 
 
 
-- If you're new to [Your Library Name], start with the [Installation](installation.md) guide to set up the library.
-- For a quick overview of how to use the library, check out the [Usage](usage.md) section.
-- Developers and contributors can find information on contributing to the project in the [Contributing](contributing.md) guide.
-
-
-## Table of Contents
+<!-- ## Table of Contents
 
 - [Installation](installation.md)
 - [Usage](usage.md)
@@ -79,30 +89,9 @@ Refer to the [API Reference](api-reference.md) for more information and usage ex
 - [Contributing](contributing.md)
 - [Changelog](changelog.md)
 - [License](#license)
-- [Community and Support](#community-and-support)
+- [Community and Support](#community-and-support) -->
 
-## Features
 
-- [List some key features of your library here]
-- [Another feature]
-- [And another feature]
 
-## Getting Started
 
-- If you're new to [Your Library Name], start with the [Installation](installation.md) guide to set up the library.
-- For a quick overview of how to use the library, check out the [Usage](usage.md) section.
-- Developers and contributors can find information on contributing to the project in the [Contributing](contributing.md) guide.
 
-## Documentation Navigation
-
-Use the sidebar on the left to navigate through the documentation and find the information you need.
-
-## Community and Support
-
-- Join our [community chat](#link-to-community-chat) for discussions, questions, and support.
-- Report bugs or suggest new features on [GitHub Issues](https://github.com/yourusername/your-library-name/issues).
-- Follow us on [Twitter](https://twitter.com/your-twitter-handle) for updates and announcements.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE). See the [License](LICENSE) file for details.
