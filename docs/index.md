@@ -1,6 +1,6 @@
 # Welcome to UnBIAS
 
-<!-- [![GitHub stars](https://img.shields.io/github/stars/yourusername/your-library-name.svg?style=flat-square)](https://github.com/yourusername/your-library-name/stargazers)
+<!-- [![GitHub stars](https://img.shields.io/github/stars/yourusername/your-library-name.svg?style=flat-square)](https://github.com/VectorInstitute/NewsMediaBias)
 [![GitHub forks](https://img.shields.io/github/forks/yourusername/your-library-name.svg?style=flat-square)](https://github.com/yourusername/your-library-name/network)
 [![GitHub issues](https://img.shields.io/github/issues/yourusername/your-library-name.svg?style=flat-square)](https://github.com/yourusername/your-library-name/issues)
 [![GitHub license](https://img.shields.io/github/license/yourusername/your-library-name.svg?style=flat-square)](https://github.com/yourusername/your-library-name/blob/main/LICENSE) -->
@@ -16,14 +16,6 @@ UnBIAS is a is a state-of-the-art text analysis and debiasing toolkit that aids 
 - **Text Debiasing:** Process any text and receive a debiased version in return. This ensures the content is neutral concerning gender, race, age groups, and is free from toxic or harmful language.
 
 *Our models are built on BERT, RobERTa and LLama 2 7B quantized models.*
-
-## Additional Highlights
-
-- **Pre-trained Models:** Uses specialized models from the renowned [Hugging Face's Transformers library](https://huggingface.co/docs/transformers/index). These models are especially tailored for bias detection and debiasing tasks.
-
-- **Efficient Pipelines:** Designed with intuitive pipelines, making it easier to incorporate into applications or other projects.
-
-- **Analytical Tools:** Handy tools available to transform results into structured data for further analysis.
 
 
 ## How to install UnBIAS
@@ -71,7 +63,29 @@ results.to_csv('<save_path>.csv', index=False)
 
 
 
-Refer to the [API Reference](api-reference.md) for more information about `run_pipeline_on_texts` and the [Detailed Usage](detailed_usage.md) for how to individually run each stage of the pipeline.
+Refer to the [API Reference](core_functions.md) for more information about `run_pipeline_on_texts`.
+
+
+
+
+## Additional Highlights
+
+- **Pre-trained Models:** Uses specialized models from the renowned [Hugging Face's Transformers library](https://huggingface.co/docs/transformers/index). These models are especially tailored for bias detection and debiasing tasks.
+
+- **Efficient Pipelines:** Designed with intuitive pipelines, making it easier to incorporate into applications or other projects.
+
+- **Analytical Tools:** Handy tools available to transform results into structured data for further analysis.
+
+## What to do next?
+
+-  You can individually run each stage of the pipeline. For instance, maybe you only care about debiasing text without concern for classification or NER for bias. To see how to do this, refer to the [BiasPipeline](bias_pipeline.md) class in the API.
+-  Debiasing text works by prompting the Llama2 LLM with a specific prompt. You can modify this prompt to suit your needs. See the [Constants](constants.md) section for more information.
+<!-- -  Refer to the [How UnBIAS Works](how_unbias_works.md) page for more information about how UnBIAS works under the hood. -->
+  
+
+
+
+
 
 ## Project Information
 

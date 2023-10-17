@@ -22,7 +22,7 @@
 
     !!! note
 
-        The output of debiasing this sentence can vary since Llama2 is a probabilistic model. This is why it varies from when we debiased it in the `run_pipeline_on_texts` example.
+        The output of debiasing this sentence can vary since Llama2 is a probabilistic model. This is why it varies from when we debiased it in the `create_bias_analysis_dataframe` example below.
 
 
 ### `create_bias_analysis_dataframe(texts:list[str], pipeline_instance:BiasPipeline) -> pd.DataFrame`

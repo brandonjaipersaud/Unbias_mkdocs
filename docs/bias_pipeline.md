@@ -60,7 +60,7 @@ Loads the bias classifier and NER tokenizers and models.
 
     B-BIAS stands for beginning of entity and I-BIAS stands for inside of entity. This is because a biased entity can span multiple words.
 
-    !!! note
+    !!! warning
 
         If running the above multiple times in a Jupyter Notebook, you might have to do `del bias_pipeline` before running it again to avoid out-of-memory errors.
 

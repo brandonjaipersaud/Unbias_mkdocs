@@ -1,14 +1,13 @@
 site_name: UnBIAS
 site_description: UnBIAS Library
 site_url: https://your-library-website.com
-repo_url: https://github.com/yourusername/my-library
+repo_url: https://github.com/VectorInstitute/NewsMediaBias
 edit_uri: edit/main/docs/
 site_author: Brandon Jaipersaud
 copyright: Copyright © 2023 Your Organization
 nav:
   - Home: index.md
-  - How UnBias Works: how_unbias_works.md
-  - Detailed Usage: usage.md
+  # - How UnBias Works: how_unbias_works.md
   - API Reference:
         - BiasPipeline: bias_pipeline.md
         - Core Functions: core_functions.md
