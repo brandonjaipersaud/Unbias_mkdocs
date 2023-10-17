@@ -38,7 +38,7 @@ pip install UnBIAS
 ```
 
 ## Quickstart
-The UnBIAS library provides a function: `run_pipeline_on_texts` which will perform
+The UnBIAS library provides a function: [`run_pipeline_on_texts`](core_functions.md) which will perform
 bias classification, NER for bias, and generate a debiased version of your text. A simple usage of the
 library is as follows: 
 
