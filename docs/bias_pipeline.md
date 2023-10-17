@@ -22,7 +22,7 @@ results.to_csv('<save_path>.csv', index=False)
 Called upon initialization. It calls `load_resources()` below.
 
 ### `load_resources() -> None`
-Loads the bias classifier and NER tokenizers and models.
+Loads the bias classifier, tokenizers and models.
 
 ### `predict_entities(text:str) -> list[str]`
 : Retrieves biased entities from a text. 
