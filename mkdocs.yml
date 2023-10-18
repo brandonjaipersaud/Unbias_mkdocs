@@ -7,20 +7,11 @@ site_author: Brandon Jaipersaud
 copyright: Copyright © 2023 Your Organization
 nav:
   - Home: index.md
-  # - How UnBias Works: how_unbias_works.md
   - API Reference:
         - BiasPipeline: bias_pipeline.md
         - Core Functions: core_functions.md
         - Utility Functions: utils.md
         - Constants: constants.md
-
-
-
-        # - run_pipeline_on_texts(): run_pipeline_on_texts.md
-        # - get_debiased_sequence(): run_pipeline_on_texts.md
-   
-        # - re_incomplete_sentence(): re_incomplete_sentence.md
-        # - tokenize_for_prediction(): tokenize_for_prediction.md
 theme:
   name: material
   palette: 
