@@ -4,19 +4,6 @@ This class can be used to individually run the bias classification and NER for b
 
 To individually run the debiasing stage of the pipeline see the [`get_debiased_sequence`](core_functions.md) function.
 
-<!-- ## Usage -->
-
-<!-- ```py
-from UnBIAS.unbias import BiasPipeline
-import pandas as pd 
-
-biased_texts = pd.read_csv("<dataset_path>.csv")
-# Assuming your CSV has a column called 'Text' that you want to debias
-biased_texts = list(biased_texts['Text'])
-# run the pipeline and save results
-results = run_pipeline_on_texts(biased_texts)
-results.to_csv('<save_path>.csv', index=False)
-```  -->
 
 ### `__init__() -> None`
 Called upon initialization. It calls `load_resources()` below.
