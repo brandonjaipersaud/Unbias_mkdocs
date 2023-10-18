@@ -7,6 +7,8 @@ site_author: Brandon Jaipersaud
 copyright: Copyright © 2023 Your Organization
 nav:
   - Home: index.md
+  - Maintainers: maintainers.md
+  - Data Preparation: data_prep.md
   - API Reference:
         - BiasPipeline: bias_pipeline.md
         - Core Functions: core_functions.md
