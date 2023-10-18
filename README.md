@@ -8,7 +8,7 @@ pip install mkdocs
 cd <project_directory>
 mkdocs serve
 ```
-You can then view documentation locally at: localhost:8000
+You can then view documentation locally at: localhost:8000. My general workflow is to first make local changes, and when I'm satisfied I do `git push` which will reflect the changes in the live site.
 
 ### Making Changes
 
