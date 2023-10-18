@@ -8,7 +8,7 @@ copyright: Copyright © 2023 Your Organization
 nav:
   - Home: index.md
   - Data Preparation: data_prep.md
-  - Maintainers: maintainers.md
+  # - Maintainers: maintainers.md
   - API Reference:
         - BiasPipeline: bias_pipeline.md
         - Core Functions: core_functions.md
