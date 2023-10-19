@@ -6,6 +6,7 @@
 [![GitHub license](https://img.shields.io/github/license/yourusername/your-library-name.svg?style=flat-square)](https://github.com/yourusername/your-library-name/blob/main/LICENSE) -->
 
 ## Overview
+**PyPI**: [https://pypi.org/project/UnBIAS/](https://pypi.org/project/UnBIAS/)
 
 UnBIAS is a is a state-of-the-art text analysis and debiasing toolkit that aids in assessing and rectifying biases in textual content. Developed with state-of-the-art Transformer models, this toolkit offers:
 
@@ -18,7 +19,6 @@ UnBIAS is a is a state-of-the-art text analysis and debiasing toolkit that aids 
 *Our models are built on BERT, RobERTa and Meta - LLama-2-7B quantized models. *
 
 ![Overall flow](./images/main.png)
-
 
 
 ## How to install UnBIAS
@@ -108,7 +108,7 @@ Vector Institute for Artificial Intelligence
 
 
 
-A special thanks to Oluwanifemi Bamgbose, Brandon Jaipersaud, and Tahniat Khan who helped in the development of this project.
+A special thanks to Oluwanifemi Bamgbose, Brandon Jaipersaud, Shardul Ghuge and Tahniat Khan who helped in the development of this project.
 
 
 <!-- ## Table of Contents
