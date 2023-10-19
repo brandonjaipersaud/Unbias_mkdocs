@@ -92,9 +92,11 @@ Refer to the [API Reference](core_functions.md) for more information about `run_
 
 ## Project Information
 
-- **License**: [insert-if-we-have]
+- **License**: MIT
 - **PyPI**: [https://pypi.org/project/UnBIAS/](https://pypi.org/project/UnBIAS/)
-- **Source Code**: [https://github.com/VectorInstitute/NewsMediaBias](https://github.com/VectorInstitute/NewsMediaBias)
+- **Source Code**: [https://github.com/VectorInstitute/NewsMediaBias](https://github.com/VectorInstitute/NewsMediaBias) OR ask **email**: [Shaina Raza](mailto:Shaina.raza@utoronto.ca)
+
+
 
 
 

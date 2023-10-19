@@ -87,10 +87,15 @@ Active learning is a crucial component of our data preparation methodology for U
 
 ![Active Learning Diagram](./images/AL.png)
 
+!!! note "Note:"
+    *The above instructions are for cases where you want to train UnBIAS models on your training data or specific use case.*
+
+    The Unbias package allows you to easily process a batch of sentences to detect and rectify biases. Here's how you can do it:
+
+
 
 ## Running the Unbias Package
 
-The Unbias package allows you to easily process a batch of sentences to detect and rectify biases. Here's how you can do it:
 
 
 ```
