@@ -11,10 +11,15 @@ Ensuring data is **Findable, Accessible, Interoperable, and Reusable** is essent
 
 ## Introduction
 The FAIR principles guide our data management strategy, ensuring our datasets are:
+
 - **Findable**: Easily located and identified.
+
 - **Accessible**: Available for retrieval without unnecessary barriers.
+
 - **Interoperable**: Compatible with other data systems and platforms.
+
 - **Reusable**: Ready for future applications and re-analysis.
+
 
 ## Binary and Multi-label Classification
 To train the UnBIAS classifier, data should be labeled either as "biased" or "unbiased". Multi-label classifications are also supported.
@@ -28,11 +33,39 @@ Label: "biased"
 ## CONLL BIO FORMAT
 For training named entities, data should be in the CONLL BIO format. 
 
+"B-" means the beginning of an entity.
+
+"I-" means inside or continuation of an entity.
+
+"O" means outside of any entity.
+
+
 **Example**:
+
+Sentence: "He's surprisingly articulate for a young man from that neighborhood."
+BIO Format: 
 ```
-Sentence: "He made a discriminatory remark."
-BIO Format: "He O made O a O discriminatory B remark I . O"
+He's            O
+surprisingly    O
+articulate      O
+for             B-BIAS
+a               I-BIAS
+young           I-BIAS
+man             I-BIAS
+from            I-BIAS
+that            I-BIAS
+neighborhood    I-BIAS
+.               O
+
 ```
+In the CONLL BIO format, the annotations "O", "B-BIAS", and "I-BIAS" have specific meanings:
+
+**O**: Represents "Outside" and is used for words that are not part of any entity or specifically not part of the entity being tagged.
+
+**B-BIAS**: Represents "Begin-BIAS". It indicates the beginning of a bias entity (or any other entity you're tracking). The "B-" prefix is used to mark the start of an entity.
+
+**I-BIAS**: Represents "Inside-BIAS". It indicates a word that is inside or a continuation of a bias entity that started with a "B-BIAS" tag.
+
 
 ## Debiasing Training Data
 For the debiaser in UnBIAS, the dataset should contain both the original "biased_text" and its "debiased_version".
