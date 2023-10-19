@@ -1,6 +1,6 @@
 site_name: UnBIAS
 site_description: UnBIAS Library
-site_url: https://your-library-website.com
+site_url: https://pypi.org/project/UnBIAS/
 repo_url: https://github.com/VectorInstitute/NewsMediaBias
 edit_uri: edit/main/docs/
 site_author: Brandon Jaipersaud
@@ -14,6 +14,7 @@ nav:
         - Core Functions: core_functions.md
         - Utility Functions: utils.md
         - Constants: constants.md
+  - Use Cases: Usecases.md
 theme:
   name: material
   palette: 
