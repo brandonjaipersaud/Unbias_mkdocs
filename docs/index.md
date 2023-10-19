@@ -15,7 +15,10 @@ UnBIAS is a is a state-of-the-art text analysis and debiasing toolkit that aids 
 
 - **Text Debiasing:** Process any text and receive a debiased version in return. This ensures the content is neutral concerning gender, race, age groups, and is free from toxic or harmful language.
 
-*Our models are built on BERT, RobERTa and LLama 2 7B quantized models.*
+*Our models are built on BERT, RobERTa and Meta - LLama-2-7B quantized models. *
+
+![Overall flow](./images/main.png)
+
 
 
 ## How to install UnBIAS
@@ -70,7 +73,7 @@ Refer to the [API Reference](core_functions.md) for more information about `run_
 
 ## Additional Highlights
 
-- **Pre-trained Models:** Uses specialized models from the renowned [Hugging Face's Transformers library](https://huggingface.co/docs/transformers/index). These models are especially tailored for bias detection and debiasing tasks.
+- **Pre-trained Models:** Uses specialized models from the renowned [Hugging Face's Transformers library](https://huggingface.co/docs/transformers/index). We have also tailored Transformer-based models for bias detection and debiasing tasks [newsmediabias-hub](https://huggingface.co/newsmediabias).
 
 - **Efficient Pipelines:** Designed with intuitive pipelines, making it easier to incorporate into applications or other projects.
 
