@@ -95,16 +95,17 @@ Refer to the [API Reference](core_functions.md) for more information about `run_
 
 
 
-## Contact
+## Contact Me
 
-All inquiries should be directed to Shaina Raza, PhD, Applied Machine Learning Scientist, Responsible AI, Vector Institute for Artificial intelligence who led this project.
+**Shaina Raza, PhD**  
+Applied Machine Learning Scientist - Responsible AI  
+Vector Institute for Artificial Intelligence  
+
+**email**: [Shaina.raza@utoronto.ca](mailto:Shaina.raza@utoronto.ca)
 
 
-**email**: Shaina.raza@utoronto.ca
 
-## Acknowledgements
-
-A special thanks to Nifemi Bamgbose, Brandon Jaipersaud, and Tahniat Khan who helped in the development of this project.
+A special thanks to Oluwanifemi Bamgbose, Brandon Jaipersaud, and Tahniat Khan who helped in the development of this project.
 
 
 <!-- ## Table of Contents
