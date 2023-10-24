@@ -18,7 +18,10 @@ UnBIAS is a is a state-of-the-art text analysis and debiasing toolkit that aids 
 
 **Our models are built on BERT, RobERTa and Meta - LLama-2-7B quantized models.**
 
-![Overall flow](./images/main.png)
+<div align="center">
+    <img src="./images/fig1.jpg" width="400">
+</div>
+
 
 
 ## How to install UnBIAS

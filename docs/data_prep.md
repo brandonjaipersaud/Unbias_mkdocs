@@ -85,7 +85,7 @@ Active learning is a crucial component of our data preparation methodology for U
 4. **Human Intervention**: Experts label these uncertain points.
 5. **Model Refinement**: The model is retrained with the new labeled data.
 
-![Active Learning Diagram](./images/AL.png)
+![Active Learning Diagram](./images/AL.jpg)
 
 !!! note "Note:"
     *The above instructions are for cases where you want to train UnBIAS models on your training data or specific use case.*
