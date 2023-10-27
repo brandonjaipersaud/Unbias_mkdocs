@@ -113,7 +113,7 @@ Vector Institute for Artificial Intelligence
 
 
 
-A special thanks to Oluwanifemi Bamgbose, Brandon Jaipersaud, Shardul Ghuge for faciliating development of this project.
+A special thanks to Oluwanifemi Bamgbose, Mizanur Rahman, Brandon Jaipersaud, Shardul Ghuge for faciliating development of this project.
 
 
 <!-- ## Table of Contents
