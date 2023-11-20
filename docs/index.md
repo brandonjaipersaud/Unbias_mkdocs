@@ -6,7 +6,7 @@
     
     <!-- Center container for logo -->
     <div style="flex-grow: 0;">
-        <img src="./images/logo.PNG" alt="Vector Institute Logo" style="width: 120px; height: auto;"/>
+        <img src="./images/logo.png" alt="Vector Institute Logo" style="width: 120px; height: auto;"/>
     </div>
     
     <!-- Right side container for navigation -->
