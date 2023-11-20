@@ -1,3 +1,22 @@
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+    <!-- Left side container for navigation or empty if you want the logo centered -->
+    <div style="flex-grow: 1;">
+        <!-- Left-side links go here -->
+    </div>
+    
+    <!-- Center container for logo -->
+    <div style="flex-grow: 0;">
+        <img src="./images/logo.PNG" alt="Vector Institute Logo" style="width: 120px; height: auto;"/>
+    </div>
+    
+    <!-- Right side container for navigation -->
+    <div style="flex-grow: 1; display: flex; justify-content: flex-end;">
+        <!-- Right-side links go here -->
+    </div>
+</div>
+
+
+
 # Welcome to UnBIAS
 
 <!-- [![GitHub stars](https://img.shields.io/github/stars/yourusername/your-library-name.svg?style=flat-square)](https://github.com/VectorInstitute/NewsMediaBias)
@@ -106,7 +125,7 @@ Refer to the [API Reference](core_functions.md) for more information about `run_
 
 - **License**: MIT
 - **PyPI**: [https://pypi.org/project/UnBIAS/](https://pypi.org/project/UnBIAS/)
-- **Source Code**: [https://github.com/VectorInstitute/NewsMediaBias](https://github.com/VectorInstitute/NewsMediaBias) OR ask **email**: [Shaina Raza](mailto:Shaina.raza@utoronto.ca)
+- **Source Code**: [https://github.com/VectorInstitute/NewsMediaBias](https://github.com/VectorInstitute/NewsMediaBias) OR ask **email**: [Shaina Raza](mailto:Shaina.raza@vectorinstitute.ca)
 
 
 
@@ -118,11 +137,15 @@ Refer to the [API Reference](core_functions.md) for more information about `run_
 Applied Machine Learning Scientist - Responsible AI  
 Vector Institute for Artificial Intelligence  
 
-**Email**: [Shaina.raza@utoronto.ca](mailto:Shaina.raza@utoronto.ca)
+**Email**: [Shaina.raza@vectorinstitute.ca](mailto:shaina.raza@vectorinstitute.ca)
+
+## Acknowledgment
+
+We would like to express our profound gratitude to the [Vector Institute for Artificial Intelligence](https://www.vectorinstitute.ai/)
+ for Artificial Intelligence for the invaluable support and resources that have been pivotal in developing this toolkit
 
 
-
-A special thanks to Oluwanifemi Bamgbose, Mizanur Rahman, Brandon Jaipersaud, Shardul Ghuge for faciliating development of this project.
+A special thanks to Oluwanifemi Bamgbose, Mizanur Rahman, Brandon Jaipersaud, Shardul Ghuge from Vector Institute for faciliating development of this project.
 
 
 <!-- ## Table of Contents
