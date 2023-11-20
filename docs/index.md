@@ -23,9 +23,17 @@ UnBIAS is a is a state-of-the-art text analysis and debiasing toolkit that aids 
 </div>
 
 
+## Demo for UnBIAS
+[Open in Google Colab](https://drive.google.com/file/d/1RivDKlnQEUc1JcvC78DKUPca_JfkJnx2/view?usp=sharing)
 
-## How to install UnBIAS
+[Download Notebook](https://drive.google.com/file/d/1RivDKlnQEUc1JcvC78DKUPca_JfkJnx2/view?usp=sharing)
+
+**Easy to check** : You can use this notebook to run UnBIAS pipeline using Google Colab (even free version- choose T4 GPU).
+
+
+## How to install UnBIAS PyPi Package
 To use UnBIAS, you'll need to have [Python](https://www.python.org/downloads/) installed on your system. UnBIAS supports Python3 and above.
+
 
 ### Installation via pip
 
@@ -68,10 +76,11 @@ results.to_csv('<save_path>.csv', index=False)
 ``` 
 
 
-
 Refer to the [API Reference](core_functions.md) for more information about `run_pipeline_on_texts`.
 
 
+
+**Disclaimer:** The Jupyter Notebooks linked from this package use GPU resources on Google Colab Pro. Intensive GPU usage may be limited by Google Colab's policies. If resource limitations are a concern, consider using [this notebook on Google Colab](https://drive.google.com/file/d/1RivDKlnQEUc1JcvC78DKUPca_JfkJnx2/view?usp=sharing).
 
 
 ## Additional Highlights
