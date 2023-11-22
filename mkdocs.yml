@@ -8,12 +8,14 @@ copyright: Copyright © 2023 Your Organization
 nav:
   - Home: index.md
   - Data Preparation: data_prep.md
+  - Usage: usage.md
   # - Maintainers: maintainers.md
   - API Reference:
         - BiasPipeline: bias_pipeline.md
         - Core Functions: core_functions.md
         - Utility Functions: utils.md
         - Constants: constants.md
+
   - Use Cases: Usecases.md
 theme:
   name: material

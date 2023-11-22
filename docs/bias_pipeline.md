@@ -2,6 +2,7 @@
 
 This class can be used to individually run the bias classification and NER for bias stages of the pipeline. See the example code snippets below on how to do this. It is also used by the [`run_pipeline_on_texts`](core_functions.md) function to perform the entire pipeline on a list of texts. 
 
+
 To individually run the debiasing stage of the pipeline see the [`get_debiased_sequence`](core_functions.md) function.
 
 
