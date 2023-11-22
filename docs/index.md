@@ -71,45 +71,50 @@
 
     <section id="installation">
         <h2>Installation</h2>
-        <p>UnBIAS can be easily installed using pip. Open your terminal or command prompt and execute the following command:</p>
+        <p style="text-align: justify;"> UnBIAS can be easily installed using pip. Open your terminal or command prompt and execute the following command:</p>
         <code>pip install UnBIAS</code>
     </section>
 
     <section id="usage">
     <h2>Usage</h2>
-    <p>Integrate UnBIAS into your projects with ease. For detailed guidelines, refer to our <a href="usage/">usage documentation</a>.</p>
+    <p style="text-align: justify;">Integrate UnBIAS into your projects with ease. For detailed guidelines, refer to our <a href="usage/">usage documentation</a>.</p>
     </section>
 
 
     <section id="demo">
-        <h2>Interactive Demos</h2>
-        <p>Experience UnBIAS firsthand with our interactive demos:</p>
+        <h2>Demo</h2>
+        <p style="text-align: justify;">Experience UnBIAS firsthand with our interactive demos:</p>
         <ul>
             <li><a href="https://drive.google.com/file/d/1RivDKlnQEUc1JcvC78DKUPca_JfkJnx2/view?usp=sharing">Open in Google Colab</a></li>
         </ul>
     </section>
 
 <section id="vision">
-    <h2>Vision Statement - Vector Institute</h2>
-    <p>The <a href="https://vectorinstitute.ai/">Vector Institute for Artificial Intelligence</a> is committed to leading the transformation of AI research and development, focusing on ethical, equitable, and sustainable solutions. Our vision is to harness the full potential of AI to benefit society and drive positive global change. By fostering collaborative innovation and nurturing top AI talent, we aim to be at the forefront of creating a future where AI is a force for good, enhancing human capabilities and addressing the world's most pressing challenges.</p>
+    <h2>Vision</h2>
+    <p style="text-align: justify;">The <a href="https://vectorinstitute.ai/">Vector Institute for Artificial Intelligence</a> is committed to leading the transformation of AI research and development, focusing on ethical, equitable, and sustainable solutions. Our vision is to harness the full potential of AI to benefit society and drive positive global change. By fostering collaborative innovation and nurturing top AI talent, we aim to be at the forefront of creating a future where AI is a force for good, enhancing human capabilities and addressing the world's most pressing challenges.</p>
 </section>
 
 <div class="footer">
-    <section id="contact">
+    <!-- Contact Information Section -->
+    <section id="contact" style="margin-bottom: 20px; border-bottom: 1px solid #ccc; padding-bottom: 20px;">
         <h2>Contact Information</h2>
-        <p>
+        <p style="text-align: center;">
             Dr. Shaina Raza<br>
             Applied Machine Learning Scientist - Responsible AI<br>
-            Email: <a href="mailto:[shaina.raza@utoronto.ca]">[shaina.raza@vectorinstitute.ai]</a><br>
+            Email: <a href="mailto:shaina.raza@utoronto.ca">shaina.raza@vectorinstitute.ai</a><br>
             <!-- Include any additional contact information here if needed -->
         </p>
     </section>
 </div>
-    <section id="acknowledgment">
+
+<div>
+    <!-- Acknowledgements Section -->
+    <section id="acknowledgment" style="font-size: small; margin-top: 20px;">
         <h2>Acknowledgements</h2>
-        <p>We would like to express our profound gratitude to the <b>Vector Institute for Artificial Intelligence</b> for the invaluable support and resources that have been pivotal in developing this toolkit.</p>
-        <p>A special thanks to Oluwanifemi Bamgbose, Mizanur Rahman, Brandon Jaipersaud, Shardul Ghuge from the Vector Institute for facilitating the development of this project.</p>
+        <p style="text-align: justify;">We would like to express our profound gratitude to the <b>Vector Institute for Artificial Intelligence</b> for the invaluable support and resources that have been pivotal in developing this toolkit.</p>
+        <p style="text-align: justify;">A special thanks to Oluwanifemi Bamgbose, Mizanur Rahman, Brandon Jaipersaud, Shardul Ghuge from the Vector Institute for facilitating the development of this project.</p>
     </section>
 </div>
+
 
 
