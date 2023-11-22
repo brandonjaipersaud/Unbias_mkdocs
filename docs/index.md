@@ -44,7 +44,11 @@
 
     <section id="overview">
         <h2>Overview</h2>
-       <p>UnBIAS is an innovative text analysis and debiasing toolkit, expertly crafted to identify and mitigate biases in textual content. Utilizing advanced Transformer models like BERT, RobERTa, and Meta - 		LLama-2-7B quantized models, UnBIAS ensures fairness and neutrality in AI-driven text analysis. With its cutting-edge technology, UnBIAS is dedicated to promoting ethical AI practices and 			fostering a more equitable digital world.</p>
+       <p style="text-align: justify;">
+    UnBIAS is an innovative text analysis and debiasing toolkit, expertly crafted by the Vector Institute to identify and mitigate biases in textual content. Utilizing advanced Transformer models like BERT, RobERTa, and Meta - LLama-2-7B large language models (LLMs). UnBIAS ensures fairness and neutrality in AI-driven text analysis. With its cutting-edge technology, and aligned to our mission, <b>Vector is supporting and developing toolkits like UnBIAS to promote ethical AI practices and fostering a more equitable digital world</b>.
+</p>
+
+
 <p><strong>PyPI</strong>: <a href="https://pypi.org/project/UnBIAS/">https://pypi.org/project/UnBIAS/</a></p>
    
 
