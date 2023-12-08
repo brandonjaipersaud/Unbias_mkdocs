@@ -81,13 +81,16 @@
     </section>
 
 
-    <section id="demo">
-        <h2>Demo</h2>
-        <p style="text-align: justify;">Experience UnBIAS firsthand with our interactive demos:</p>
-        <ul>
-            <li><a href="https://drive.google.com/file/d/1RivDKlnQEUc1JcvC78DKUPca_JfkJnx2/view?usp=sharing">Open in Google Colab</a></li>
-        </ul>
-    </section>
+ <section id="demo">
+    <h2>Demo</h2>
+    <p style="text-align: justify;">Experience UnBIAS firsthand with our interactive demos:<sup>1</sup></p>
+    <ul>
+        <li><a href="https://drive.google.com/file/d/1RivDKlnQEUc1JcvC78DKUPca_JfkJnx2/view?usp=sharing">Open in Google Colab</a></li>
+    </ul>
+    <p id="footnote"><sup>1</sup> Please note: For optimal performance, this demo requires a T4 GPU or better. Availability of specific GPU types may vary in the free version of Google Colab.</p>
+</section>
+
+
 
 <section id="vision">
     <h2>Vision</h2>
